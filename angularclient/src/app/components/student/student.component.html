@@ -1,0 +1,22 @@
+
+<div class="container customHeight">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Marks</th>
+            
+            </tr>
+            </thead>
+            <tbody class="table-group-divider">
+            <tr *ngFor="let stud of students">
+                <th>{{stud._id}}</th>
+                <td>{{stud.name}}</td>
+                <td>{{stud.marks}}</td>
+                
+            </tr>
+            
+            </tbody>
+        </table>
+</div>
